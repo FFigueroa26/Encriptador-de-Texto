@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+    background: #d8dfeb;
+}
+
+.container{
+    margin: auto;
+    width: 847px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.logoimg{
+    margin-left: 5%;
+    margin-top: 5%;
+    float: inherit;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 8%;
+    margin-right: 15%;
+
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    
+}
+
+.inputText{
+    float: left;
+    margin-left: 5%;
+    margin-top: 0%;
+    text-align: center;
+    width: 85%;
+    height: 105%;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.muñeco{
+    margin-left: 3%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#mensaje{
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    margin-top: 71%;
+    color: #0A3871;
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.vector{
+    float: left;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+#minu{
+    margin-left: 12%;
+    margin-top: 8%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+
+}
+
+#botonEncriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    border: 0;
+    margin-left: 14%;
+    background-image: linear-gradient(to top right, #0f0c29, #302b63, #24243e);
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+#botonDesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 8%;
+    background-image: linear-gradient(to top right, #74ebd5, #ACB6E5);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#botonCopiar{
+    margin-left: 30%;
+    margin-top: 100%;
+    margin-bottom: 5%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    border-radius: 24px;
+    background-image: linear-gradient(to top right, #0f0c29, #302b63, #24243e);
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 0;
+}
+
+footer{
+    width: 100%;
+    padding: 0.25em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top right, #0f0c29, #302b63, #24243e);
+    font-family: sans-serif;
+    font-style: italic;
+    color: aliceblue;
+}
